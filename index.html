@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevHub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="site-logo">
+                <span class="code-icon">&lt;/&gt;</span>
+                <h1>Dev<span class="accent">Hub</span></h1>
+            </div>
+            <div class="controls">
+                <button id="themeToggle" class="icon-btn">Светлая</button>
+                <button id="langToggle" class="icon-btn">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="analytics">
+            <h2 id="ui-chart-title">Сравнение характеристик</h2>
+            <p class="section-subtitle" id="ui-chart-sub">Выберите языки для отображения на диаграмме</p>
+            <div class="chart-controls" id="chartControls"></div>
+            <div class="chart-container">
+                <canvas id="languagesChart"></canvas>
+            </div>
+        </section>
+
+        <section class="languages-grid">
+            <h2 id="ui-grid-title">Каталог Технологий</h2>
+            <div class="grid" id="languagesGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026. <span class="accent">Was programmed by def1xo.</span></p>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <div class="modal-header">
+                <img src="" id="modalLogo" alt="Лого">
+                <h2 id="modalTitle">Название</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDesc">Описание...</p>
+                <h3 id="ui-modal-features">Ключевые особенности:</h3>
+                <ul id="modalFeatures"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
