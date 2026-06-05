@@ -127,19 +127,6 @@ const languagesData = [
         }
     },
     { 
-        id: 'swift', name: 'Swift', logo: 'img/swift.svg', color: '#f43f5e', stats: [85, 50, 60, 65, 70, 40, 70],
-        ru: { 
-            short: 'Элегантность в экосистеме Apple.', 
-            long: 'Swift был создан Apple на замену устаревшему Objective-C. Это современный, быстрый и очень приятный в написании язык. Его синтаксис защищает программиста от многих распространенных ошибок на этапе написания кода. Если вы хотите создавать нативные, плавные и красивые приложения для iPhone, Mac, Apple Watch или Apple Vision Pro — это ваш единственный правильный выбор.', 
-            features: ['Крайне высокая производительность', 'Ориентация на безопасность кода', 'Эксклюзивно для экосистемы Apple'] 
-        },
-        en: { 
-            short: 'Elegance in the Apple ecosystem.', 
-            long: 'Swift was created by Apple to replace the aging Objective-C. It is a modern, fast, and highly enjoyable language to write. Its syntax protects developers from many common mistakes right at the coding stage. If you want to create native, smooth, and beautiful applications for iPhone, Mac, Apple Watch, or Apple Vision Pro, this is your only proper choice.', 
-            features: ['Extremely high performance', 'Code safety oriented design', 'Exclusive to the Apple ecosystem'] 
-        }
-    },
-    { 
         id: 'ruby', name: 'Ruby', logo: 'img/ruby.svg', color: '#dc2626', stats: [40, 35, 50, 70, 55, 60, 75],
         ru: { 
             short: 'Счастье разработчика и быстрые стартапы.', 
